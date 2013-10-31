@@ -1,0 +1,187 @@
+@charset "UTF-8";
+/* CSS Document */
+/***************/
+/* Paul Costan */
+/***************/
+
+body {
+	background-color:#434246;
+	color:#FFF;
+    padding-top: 60px;
+    padding-bottom: 40px;
+      }
+	  
+/* Headers */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 0 10px 0;
+  font-family: inherit;
+  font-weight: 400;
+  line-height: 20px;
+  color: #FF0;
+  text-rendering: optimizelegibility;
+}
+
+h1 small,
+h2 small,
+h3 small,
+h4 small,
+h5 small,
+h6 small {
+  font-weight: normal;
+  line-height: 1;
+  color: #FF0;
+}
+
+h1,
+h2,
+h3 {
+  line-height: 40px;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+h2 {
+  font-size: 2.5em;
+}
+
+h3 {
+  font-size: 2em;
+}
+
+h4 {
+  font-size: 1.5em;
+}
+
+h5 {
+  font-size: 1em;
+}
+
+h6 {
+  font-size: 11.9px;
+}
+
+h1 small {
+  font-size: 24.5px;
+}
+
+h2 small {
+  font-size: 17.5px;
+}
+
+h3 small {
+  font-size: 14px;
+}
+
+h4 small {
+  font-size: 14px;
+}
+
+hr {
+	color:#FF0;}
+
+.brand {
+	background:url(../images/logo.png) no-repeat scroll;
+	background-size:20% auto;
+	margin-left: 0;
+    margin-top: 10px;
+	color:#FFF;
+    padding-left: 70px;
+	height: 35px;
+    padding-top: 12px;
+	}
+
+.navbar-inner {
+	height: 70px;
+	}
+
+.nav {
+	height: 50px;
+    margin-top: 12px;
+	margin-bottom: 0;
+	}
+	
+.navbar-inner div.container div.nav-collapse ul.nav li {
+	height: 40px;
+	border-right:1px solid #FF0;
+	}
+	
+.box {
+	background-color:#333;
+	padding:10px;
+	color:#FFF;
+	min-height:170px;
+	}
+	
+.row {
+	margin-bottom:20px;
+	}
+	
+.yellow-line {
+	border-top:1px solid #FF0;
+	margin-bottom:10px;
+	}
+	
+.yellow-line h3 {
+	margin:-13px 0 0 36%;
+	background-color:#434246;
+	width: 25%;
+	text-align: center;
+	font-size:1.2em;
+	line-height:normal;
+	}
+	
+.image-170x170 {
+	float:left;
+	width:170px;
+	height:170px;
+	background-color:#FFF;
+	margin:0 10px 10px 0;
+	color:#CCC;
+	text-align:center;
+	}
+	
+.image-100x100 {
+	width:auto;
+	height:150px;
+	background-color:#FFF;
+	margin:0 0 10px 0;
+	color:#CCC;
+	text-align:center;
+	}
+	
+.image-240x135 {
+	float:left;
+	width:240px;
+	height:170px;
+	background-color:#FFF;
+	margin:0 10px 0 0;
+	color:#CCC;
+	text-align:center;
+	}
+	
+.reserve-btn {
+	-webkit-border-radius: 50px;
+	-moz-border-radius: 50px;
+	border-radius:50px;
+	background-color:#FFF;
+	color:#333;
+	width: 70px;
+	height: 55px;
+	text-align:center;
+	font-size:0.9em;
+	line-height:1em;
+	padding-top: 15px;
+	float:right;
+	}
+	
+footer {
+	color:#FFF;
+	}

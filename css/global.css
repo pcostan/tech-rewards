@@ -136,6 +136,7 @@ hr {
 	text-align: center;
 	font-size:1.2em;
 	line-height:normal;
+	overflow: hidden;
 	}
 	
 .image-170x170 {
@@ -146,6 +147,7 @@ hr {
 	margin:0 10px 10px 0;
 	color:#CCC;
 	text-align:center;
+	overflow: hidden;
 	}
 	
 .image-100x100 {
@@ -155,7 +157,13 @@ hr {
 	margin:0 0 10px 0;
 	color:#CCC;
 	text-align:center;
+	overflow: hidden;
 	}
+
+.image-100x100 img {
+	width: 100%;
+	height: auto;
+}
 	
 .image-240x135 {
 	float:left;
@@ -165,6 +173,7 @@ hr {
 	margin:0 10px 0 0;
 	color:#CCC;
 	text-align:center;
+	overflow: hidden;
 	}
 	
 .reserve-btn {
